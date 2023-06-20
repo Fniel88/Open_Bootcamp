@@ -1,0 +1,13 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-weight: 300;
+}
+
+.elemento-1 {
+    color: red;
+}
+
+.list ul.unorder .elemento-1 {
+    font-size: 2rem;
+}
