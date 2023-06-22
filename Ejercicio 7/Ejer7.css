@@ -1,0 +1,20 @@
+.weave {
+    color: rgb(36, 112, 199);
+    font-family: monospace;
+    font-size: large;
+}
+
+button.yes::after { /*Asi se asigna algo con pseudoelemnto*/
+    content: 'Pasa por encima';
+    font-size: medium;
+}
+
+button.yes:hover { /*Paso por encima y cambio*/
+    background-color: green;
+    color: white;
+}
+
+button.yes::after { /*Fin*/
+    content: '¡Hecho!';
+    font-size: medium;
+}
