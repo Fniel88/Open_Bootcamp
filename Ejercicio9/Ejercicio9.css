@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige; 
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    gap: 0.5rem;
+    flex-direction: column;
+    background-color: cadetblue;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-2 {
+    display: flex;
+    flex-grow: unset;
+    gap: 0.25rem;
+    flex-direction: column;
+    background-color: cadetblue;
+    align-items: end;
+    width: 100%;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+@media screen  and (max-width: 640px){
+    .container{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        bottom: 0;
+        position: fixed; /*Al establecer position: fixed y agregar las propiedades bottom: 0 y width: 100%, la barra lateral se fija en la parte inferior de la ventana del navegador y se extiende por todo el ancho disponible.*/
+    }
+}
