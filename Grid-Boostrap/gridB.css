@@ -1,0 +1,28 @@
+.row {
+    margin: 0.25rem;
+    gap: 0.25rem;
+}
+
+.col {
+    background-color: aqua;
+}
+
+.col-sm {
+    background-color: blueviolet;
+}
+
+.col-md {
+    background-color: coral;
+}
+
+.col-lg {
+    background-color: cornflowerblue;
+}
+
+.col-xl {
+    background-color: darkseagreen;
+}
+
+.col-xxl {
+    background-color: darkorange;
+}
